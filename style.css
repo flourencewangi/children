@@ -1,4 +1,14 @@
-table,th,tr,td{border: 1px solid black;
-border-collapse: collapse;
-padding: 8px;
+table,th,tr,td{
+padding: 5px;
+}
+body{ 
+  background-image: url(tree.png);
+}
+h1,h2,h3,h4,h5,h6{
+  color: skyblue;
+  text-align: center;
+}
+#container {display: flexbox;
+flex-wrap: wrap;
+  
 }
