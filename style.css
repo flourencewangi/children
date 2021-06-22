@@ -2,10 +2,10 @@ table,th,tr,td{
 padding: 5px;
 }
 body{ 
-  background-image: url(tree.png);
+  background-color: lavender;
 }
 h1,h2,h3,h4,h5,h6{
-  color: skyblue;
+  color: red;
   text-align: center;
 }
 #container {display: flexbox;
