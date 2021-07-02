@@ -47,3 +47,6 @@ flex-wrap: wrap;
   background-color: violet;
 border-radius: 3px;
 }
+.menu-bar.fa{
+  margin-left: 8px;
+}
