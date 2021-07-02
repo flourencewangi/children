@@ -13,8 +13,11 @@ h1,h2,h3,h4,h5,h6{
 flex-wrap: wrap;
   
 }
-div{
-  background-color: pink;
+.body{
+  text-indent:50px ;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  word-spacing: 1px;
 }
 *{
   padding: 0;
@@ -31,11 +34,16 @@ div{
   color: lavenderblush;
 }
 .menu-bar ul li{
-  width:10px;
-  margin: 20px;
-  padding:10px;
+  width:100px;
+  margin: 10px;
+  padding:5px;
 }
 .menu-bar ur li a{
   text-decoration: none;
   color: violet;
+}
+.active,.menu-bar ul li:hover
+{
+  background-color: violet;
+border-radius: 3px;
 }
