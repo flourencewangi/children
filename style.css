@@ -7,6 +7,7 @@ body{
 h1,h2,h3,h4,h5,h6{
   color: red;
   text-align: center;
+  
 }
 #container {display: flexbox;
 flex-wrap: wrap;
@@ -14,4 +15,27 @@ flex-wrap: wrap;
 }
 div{
   background-color: pink;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.menu-bar{
+  background: rgb(red, green, blue);
+  text-align: center;
+}
+.menu-bar ul{
+  display: inline-flex;
+  list-style: none;
+  color: lavenderblush;
+}
+.menu-bar ul li{
+  width:10px;
+  margin: 20px;
+  padding:10px;
+}
+.menu-bar ur li a{
+  text-decoration: none;
+  color: violet;
 }
